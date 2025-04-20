@@ -1,0 +1,37 @@
+# ninja log v6
+354	421	7665988719707101	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-done	7f10292a7751ac3e
+1	50	7663630430527428	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-mkdir	728100aacfadc4ee
+51	13386	7663630563872492	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-download	b18db47aaa88bfc4
+1	121	7665988715573865	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-update	bbe5af67a9c440f0
+1	121	7665988715573865	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-update	bbe5af67a9c440f0
+121	167	7665988717167022	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-patch	99cb62e8038c7edc
+1	50	7663630430527428	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-mkdir	728100aacfadc4ee
+51	13386	7663630563872492	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-download	b18db47aaa88bfc4
+121	167	7665988717167022	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-patch	99cb62e8038c7edc
+167	213	7665988717627228	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-configure	34f1e6805089057d
+167	213	7665988717627228	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-configure	34f1e6805089057d
+213	259	7665988718090158	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-build	cc64369b30a3f6dd
+213	259	7665988718090158	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-build	cc64369b30a3f6dd
+259	307	7665988718577923	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-install	f3bbfebc4385085d
+259	307	7665988718577923	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-install	f3bbfebc4385085d
+307	354	7665988719043379	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-test	18177cf7e0a46fb5
+307	354	7665988719043379	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-test	18177cf7e0a46fb5
+354	421	7665988719707101	CMakeFiles/freetype-populate-complete	7f10292a7751ac3e
+354	421	7665988719707101	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-done	7f10292a7751ac3e
+354	421	7665988719707101	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/freetype-subbuild/CMakeFiles/freetype-populate-complete	7f10292a7751ac3e
+1	188	7666699032708947	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-update	bbe5af67a9c440f0
+1	188	7666699032708947	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-update	bbe5af67a9c440f0
+188	301	7666699035624706	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-patch	99cb62e8038c7edc
+188	301	7666699035624706	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-patch	99cb62e8038c7edc
+301	394	7666699036556361	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-configure	34f1e6805089057d
+301	394	7666699036556361	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-configure	34f1e6805089057d
+394	488	7666699037494733	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-build	cc64369b30a3f6dd
+394	488	7666699037494733	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-build	cc64369b30a3f6dd
+488	580	7666699038427591	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-install	f3bbfebc4385085d
+488	580	7666699038427591	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-install	f3bbfebc4385085d
+580	675	7666699039376055	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-test	18177cf7e0a46fb5
+580	675	7666699039376055	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-test	18177cf7e0a46fb5
+675	806	7666699040683624	CMakeFiles/freetype-populate-complete	7f10292a7751ac3e
+675	806	7666699040683624	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-done	7f10292a7751ac3e
+675	806	7666699040683624	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/freetype-subbuild/CMakeFiles/freetype-populate-complete	7f10292a7751ac3e
+675	806	7666699040683624	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-done	7f10292a7751ac3e

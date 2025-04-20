@@ -1,0 +1,3 @@
+D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/freetype-subbuild/CMakeFiles/freetype-populate.dir
+D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/freetype-subbuild/CMakeFiles/edit_cache.dir
+D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/freetype-subbuild/CMakeFiles/rebuild_cache.dir
