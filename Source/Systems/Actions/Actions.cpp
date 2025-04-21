@@ -12,7 +12,7 @@ void Actions::playerMoveForward(Player &player, Map &map) {
                 player.set_position_x(player.position_x() + 4);
                 moveTimer.restart();
             } else {
-                cout << "No go" << endl;
+                // cout << "No go" << endl;
             }
         }
     }
@@ -30,7 +30,7 @@ void Actions::playerMoveBackward(Player &player, Map &map) {
                 player.set_position_x(player.position_x() - 4);
                 moveTimer.restart();
             } else {
-                cout << "No go" << endl;
+                // cout << "No go" << endl;
             }
         }
     }
@@ -85,6 +85,7 @@ bool Actions::canLand(Player &player, Map &map) {
     return (tileId < 1 || tileId > 3);
 }
 
+
 void Actions::isWalkingForward(Player &player, bool isWalkingForward) {
         player.set_is_moving_forward(isWalkingForward);
 }
@@ -135,22 +136,78 @@ bool Actions::canMoveBackwards(int positionX, int positionY) {
 void Actions::playerAttack(Player &player, Map &map) {
     player.set_is_attacking(true);
     player.set_is_actions(true);
-    cout << "attack triggered" << endl;
-    cout << player.is_attacking() << endl;
-    cout << player.is_actions() << endl;
-
+    playerHit(map, player, player.position_x(), player.position_y());
     player.generatePlayer(map);
-
 }
 
-void Actions::playerHit() {
+void Actions::playerHit(Map &map, Player &player, int playerPositionX, int playerPositionY) {
+
+    int range = player.attack_range();
+    playerPositionX = (playerPositionX + 32) / 64;
+    playerPositionY = playerPositionY / 64;
+
+    for (int i = 0; i < map.enemies.size(); i++) {
+        Enemy &enemy = map.enemies[i];
+
+        if (isInRage(playerPositionX, playerPositionY, enemy.position_x(), enemy.position_y(), range)) {
+
+            player.set_is_bow_attack(true);
+            enemy.set_health(enemy.health1() - player.attack1());
+            damageText.writeText(to_string(player.attack1()), 32, "green", enemy.position_x() + 1, enemy.position_y());
+            enemy.checkEnemyHp();
+
+            if (enemy.is_dead()) {
+                player.set_exp(player.exp1() + enemy.reward_exp());
+                map.enemies.erase(map.enemies.begin() + i);
+                map.generateEnemy();
+                break;
+            }
+        }
+    }
+}
+
+bool Actions::isInRage(int playerX, int playerY, int monsterX, int monsterY, int range) {
+    if (abs(playerX - monsterX) <= range && abs(playerY - monsterY) <= range) {
+        return true;
+    }
+    return false;
+}
+
+void Actions::monsterAttack(Player &player, Map &map) {
+
+    if (!player.isAlive()) {
+        cout << "game over" << endl;
+        return;
+    }
+    int playerPositionX = (player.position_x() + 32) / 64;
+    int playerPositionY = player.position_y() / 64;
+
+
+    for (int i = 0; i < map.enemies.size(); i++) {
+        Enemy &enemy = map.enemies[i];
+
+        int enemyPositionX = enemy.position_x();
+        int enemyPositionY = enemy.position_y();
+        int range = enemy.attack_range();
+
+        if (isInRage(playerPositionX, playerPositionY, enemyPositionX, enemyPositionY, range)) {
+            if (enemy.timer.getElapsedTime().asMilliseconds() >= enemy.attack_speed()) {
+                player.set_hp(player.hp1() - enemy.damage1());
+                enemy.timer.restart();
+            }
+            damageText.writeText(to_string(enemy.damage1()), 32, "red", playerPositionX, playerPositionY);
+        }
+    }
+}
+
+void Actions::monsterHit(Player &player, Map &map) {
+
 }
 
 void Actions::playerDie() {
 }
 
-void Actions::monsterAttack() {
-}
+
 
 void Actions::monsterDies() {
 }

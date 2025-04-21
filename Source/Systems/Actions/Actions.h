@@ -6,6 +6,7 @@
 #define FIGHT_H
 #include "../MapSystem/Map.h"
 #include "../Player/Player.h"
+#include "../../Misc/FontManager.h"
 #include <chrono>
 #include <thread>
 
@@ -27,12 +28,14 @@ public:
     void playerJump(Player &player, Map &map);
     void applyGravity(Player &player, Map &map);
     void playerAttack(Player &player, Map &map);
+    void monsterHit(Player &player, Map &map);
 
 
-    void playerHit();
+    void playerHit(Map &map, Player &player, int plyasPositionX, int playerPositionY);
     void playerDie();
-    void monsterAttack();
+    void monsterAttack(Player &player, Map &map);
     void monsterDies();
+    FontManager damageText;
 private:
     Clock moveTimer;
     Clock jumpTimer;
@@ -45,6 +48,7 @@ private:
     bool canMoveFoward(int positionX, int positionY);
     bool canMoveBackwards(int position, int positionY);
     bool canLand(Player &player, Map &map);
+    bool isInRage(int playerX, int playerY, int monsterX, int monsterY, int range);
 };
 
 

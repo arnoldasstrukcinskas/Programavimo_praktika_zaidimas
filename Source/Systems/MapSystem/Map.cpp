@@ -1,6 +1,3 @@
-//
-// Created by arnol on 4/15/2025.
-//
 
 #include "Map.h"
 
@@ -30,7 +27,7 @@ int Map::start_position_y(){
 }
 
 
-bool Map::loadFromXML(const string &filePath) {
+bool Map::loadMapFromXML(const string &filePath) {
 
     XMLDocument mapDocument;
     if (mapDocument.LoadFile(filePath.c_str()) != XML_SUCCESS) {
@@ -78,13 +75,37 @@ bool Map::loadFromXML(const string &filePath) {
         row = row->NextSiblingElement("row");
         elementFloor++;
     }
+    return true;
+}
 
-    // for (const auto& row : tiles) {
-    //     for (const auto& element : row) {
-    //         cout << element << " ";
-    //     }
-    //     cout << endl; // Move to the next row
-    // }
+bool Map::loadEnemyFromXML(const string &filePath) {
+
+    XMLDocument mapDocument;
+    if (mapDocument.LoadFile(filePath.c_str()) != XML_SUCCESS) {
+        cerr << "Error loading XML file!" << endl;
+        return false;
+    }
+
+    XMLElement* root = mapDocument.FirstChildElement("map");
+    if (!root) {
+        cerr << "No <map> element found in the XML file!" << endl;
+        return false;
+    }
+
+    XMLElement *enemiesRoot = root->FirstChildElement("enemies");
+    XMLElement *info = enemiesRoot->FirstChildElement("info");
+
+
+    while (info) {
+        int enemyId = info->IntAttribute("id");
+        int positionX = info->IntAttribute("positionX");
+        int positionY = info->IntAttribute("positionY");
+        Enemy enemy(enemyId, positionX, positionY);
+
+        enemies.push_back(enemy);
+
+        info = info->NextSiblingElement("info");
+    }
     return true;
 }
 
@@ -117,11 +138,48 @@ void Map::generateLevel() {
     }
 }
 
+void Map::loadEnemies() {
+        for (int i = 0; i < 3; ++i) {
+            Texture texture;
+            if (!texture.loadFromFile(enemyPaths[i], false, IntRect({0, 0}, {48, 48}))) {
+                cerr << "Failed to load enemy " << i << endl;
+            }
+            enemiesTextures[i] = move(texture);
+        }
+}
+
+void Map::generateEnemy() {
+
+    loadEnemies();
+    enemiesSprites.clear();
+
+    for (int i = 0; i < enemies.size(); i++) {
+        int enemyId = enemies[i].id1();
+        int textureIndex = enemyId - 1;
+        int positionX = enemies[i].position_x();
+        int positionY = enemies[i].position_y();
+
+        Sprite enemySprite(enemiesTextures[textureIndex]);
+        enemySprite.setScale({1.333, 1.333});
+        enemySprite.setPosition(Vector2f(positionX * 64, positionY * 64));
+        enemiesSprites.push_back(enemySprite);
+    }
+}
+
 void Map::drawMap(RenderWindow& window) {
     for (Sprite sprite : spritesVector) {
         window.draw(sprite);
     }
+    for (Sprite sprite : enemiesSprites) {
+        window.draw(sprite);
+    }
 }
 
+void Map::updateEnemies(RenderWindow &window) {
+
+    for (Sprite sprite : enemiesSprites) {
+        window.draw(sprite);
+    }
+}
 
 

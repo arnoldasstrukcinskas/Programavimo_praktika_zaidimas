@@ -13,7 +13,11 @@ add_executable(Programavimo_praktika_zaidimas_ main.cpp
         Source/Systems/Actions/Actions.cpp
         Source/Systems/Actions/Actions.h
         Source/Systems/Enemy/Enemy.cpp
-        Source/Systems/Enemy/Enemy.h)
+        Source/Systems/Enemy/Enemy.h
+        Source/Misc/FontManager.cpp
+        Source/Misc/FontManager.h
+        Source/Core/GUI.cpp
+        Source/Core/GUI.h)
 
 include(FetchContent)
 FetchContent_Declare(SFML

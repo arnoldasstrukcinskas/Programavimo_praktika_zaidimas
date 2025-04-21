@@ -9,6 +9,7 @@
 #include <map>
 #include <string>
 #include <tinyxml2.h>
+#include "../Enemy/Enemy.h"
 
 using namespace std;
 using namespace sf;
@@ -18,10 +19,14 @@ class Map {
 
 public:
     Map();
-    bool loadFromXML(const string& filePath);
-    void example(RenderWindow& window);
+    bool loadMapFromXML(const string& filePath);
+    bool loadEnemyFromXML(const string& filePath);
     void drawMap(RenderWindow& window);
+    void updateEnemies(RenderWindow& window);
     void generateLevel();
+    void generateEnemy();
+    vector<Enemy> enemies;
+    map<int, Texture> enemiesTextures;
 
     //Getters
     const vector<vector<int>>& getTiles();
@@ -31,6 +36,7 @@ public:
     int start_position_y();
 
 private:
+    vector<Sprite> enemiesSprites;
     vector<vector<int>> mapTiles;
     map<int, Texture> texturesMap;
     vector<Sprite> spritesVector;
@@ -40,7 +46,6 @@ private:
     int startPositionX;
     int startPositionY;
 
-private:
     const vector<string> tilePaths = {
         // bacground map tiles
         "../Assets/Textures/Map/Tiles/1.png",
@@ -54,8 +59,16 @@ private:
         "../Assets/Textures/Map/Obstacles/steelBox.png"
     };
 
+    const vector<string> enemyPaths = {
+        "../Assets/Textures/Enemies/barrel.png",
+        "../Assets/Textures/Enemies/cannon.png",
+        "../Assets/Textures/Enemies/croc.png",
+        "../Assets/Textures/Enemies/pc.png"
+    };
+
     void loadMapTiles();
     void loadEnemyTiles();
+    void loadEnemies();
 };
 
 

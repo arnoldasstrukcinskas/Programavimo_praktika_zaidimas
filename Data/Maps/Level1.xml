@@ -18,26 +18,12 @@
         <row>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4</row>
         <row>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4</row>
     </background>
+
+<!--    cordinates have to be endered by calculating map positions without border-->
     <enemies>
-        <row>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4</row>
-        <row>4 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4</row>
-        <row>4 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4</row>
-        <row>4 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4</row>
-        <row>4 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 4</row>
-        <row>4 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4</row>
-        <row>4 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4</row>
-        <row>4 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4</row>
-        <row>4 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 4</row>
-        <row>4 1 1 1 1 1 1 12 0 1 1 1 14 0 1 1 1 1 1 4</row>
-        <row>4 1 1 1 0 0 1 0 0 1 1 1 0 0 1 0 0 11 0 4</row>
-        <row>4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4</row>
-        <row>4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4</row>
-        <row>4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4</row>
+        <info id="1" positionX="7" positionY="9"></info>
+        <info id="2" positionX="12" positionY="9"></info>
+        <info id="3" positionX="17" positionY="10"></info>
     </enemies>
-<!--    <enemies>-->
-<!--        <info id="1" positionX="7" positionY="10"></info>-->
-<!--        <info id="2" positionX="12" positionY="10"></info>-->
-<!--        <info id="3" positionX="17" positionY="11"></info>-->
-<!--    </enemies>-->
 </map>
 

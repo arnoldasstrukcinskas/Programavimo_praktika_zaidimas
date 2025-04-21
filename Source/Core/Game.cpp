@@ -4,20 +4,21 @@
 
 //Constructor
 Game::Game()
-    : desktopWindow(VideoMode::getDesktopMode(), "Zaidimas"){}
+    : desktopWindow(VideoMode::getDesktopMode(), "Zaidimas"){
+}
 
 
 void Game::run() {
 
-    if (!gameMap.loadFromXML("../Data/Maps/Level1.xml")) {
+    if (!gameMap.loadMapFromXML("../Data/Maps/Level1.xml")) {
         cerr << "Error loading the map!" << endl;
     }
-    if (!enemies.loadFromXML("../Data/Maps/Level1.xml", gameMap)) {
-        cerr << "Error loading the map!" << endl;
+    if (!gameMap.loadEnemyFromXML("../Data/Maps/Level1.xml")) {
+        cerr << "Error loading the enemies!" << endl;
     }
     gameMap.generateLevel();
+    gameMap.generateEnemy();
     actions = new Actions(gameMap);
-    enemies.generateEnemy(gameMap);
     player.generatePlayer(gameMap);
 
     while (desktopWindow.isOpen())
@@ -73,14 +74,20 @@ void Game::update() {
     actions->playerJump(player, gameMap);
     actions->playerMoveForward(player, gameMap);
     actions-> playerMoveBackward(player, gameMap);
+    actions->monsterAttack(player, gameMap);
     player.generatePlayer(map);
+    player.checkLevel(player);
     actions->applyGravity(player, gameMap);
+    actions->damageText.clearTexts();
 }
 
 void Game::render() {
     desktopWindow.clear(Color::White);
     gameMap.drawMap(desktopWindow);
-    enemies.drawEnemy(desktopWindow);
     player.drawPlayer(desktopWindow);
+    gameMap.updateEnemies(desktopWindow);
+    actions->damageText.drawTexts(desktopWindow);
+    player.drawHealthBar(desktopWindow);
+    player.drawExpBar(desktopWindow);
     desktopWindow.display();
 }

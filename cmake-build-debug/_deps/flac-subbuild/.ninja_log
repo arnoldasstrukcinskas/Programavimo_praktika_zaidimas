@@ -3,35 +3,35 @@
 1	49	7663630631272027	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-mkdir	7b282e3a085ec2d5
 49	3508	7663630665868890	flac-populate-prefix/src/flac-populate-stamp/flac-populate-download	1c8b73d39c1f5a8d
 49	3508	7663630665868890	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-download	1c8b73d39c1f5a8d
-2	113	7665988726886707	flac-populate-prefix/src/flac-populate-stamp/flac-populate-update	a5f20aa272456e6b
-114	161	7665988728421967	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-patch	fbef26821f15fa82
-2	113	7665988726886707	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-update	a5f20aa272456e6b
-114	161	7665988728421967	flac-populate-prefix/src/flac-populate-stamp/flac-populate-patch	fbef26821f15fa82
-161	208	7665988728896572	flac-populate-prefix/src/flac-populate-stamp/flac-populate-configure	f25afb1331e6a1af
-161	208	7665988728896572	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-configure	f25afb1331e6a1af
-208	256	7665988729366128	flac-populate-prefix/src/flac-populate-stamp/flac-populate-build	cceeef253aad695c
-208	256	7665988729366128	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-build	cceeef253aad695c
-256	303	7665988729843636	flac-populate-prefix/src/flac-populate-stamp/flac-populate-install	da382840e1963f84
-256	303	7665988729843636	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-install	da382840e1963f84
-303	349	7665988730310543	flac-populate-prefix/src/flac-populate-stamp/flac-populate-test	8383f51b4cbdc0c5
-303	349	7665988730310543	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-test	8383f51b4cbdc0c5
-349	413	7665988730949656	CMakeFiles/flac-populate-complete	31460738a626458f
-349	413	7665988730949656	flac-populate-prefix/src/flac-populate-stamp/flac-populate-done	31460738a626458f
-349	413	7665988730949656	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/flac-subbuild/CMakeFiles/flac-populate-complete	31460738a626458f
-349	413	7665988730949656	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-done	31460738a626458f
-2	180	7666699052537644	flac-populate-prefix/src/flac-populate-stamp/flac-populate-update	a5f20aa272456e6b
-2	180	7666699052537644	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-update	a5f20aa272456e6b
-180	292	7666699055375480	flac-populate-prefix/src/flac-populate-stamp/flac-populate-patch	fbef26821f15fa82
-180	292	7666699055375480	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-patch	fbef26821f15fa82
-293	390	7666699056352646	flac-populate-prefix/src/flac-populate-stamp/flac-populate-configure	f25afb1331e6a1af
-293	390	7666699056352646	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-configure	f25afb1331e6a1af
-390	488	7666699057327231	flac-populate-prefix/src/flac-populate-stamp/flac-populate-build	cceeef253aad695c
-390	488	7666699057327231	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-build	cceeef253aad695c
-488	586	7666699058304797	flac-populate-prefix/src/flac-populate-stamp/flac-populate-install	da382840e1963f84
-488	586	7666699058304797	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-install	da382840e1963f84
-586	686	7666699059302531	flac-populate-prefix/src/flac-populate-stamp/flac-populate-test	8383f51b4cbdc0c5
-586	686	7666699059302531	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-test	8383f51b4cbdc0c5
-686	822	7666699060677773	CMakeFiles/flac-populate-complete	31460738a626458f
-686	822	7666699060677773	flac-populate-prefix/src/flac-populate-stamp/flac-populate-done	31460738a626458f
-686	822	7666699060677773	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/flac-subbuild/CMakeFiles/flac-populate-complete	31460738a626458f
-686	822	7666699060677773	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-done	31460738a626458f
+2	117	7669528225474068	flac-populate-prefix/src/flac-populate-stamp/flac-populate-update	a5f20aa272456e6b
+117	166	7669528227064807	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-patch	fbef26821f15fa82
+2	117	7669528225474068	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-update	a5f20aa272456e6b
+117	166	7669528227064807	flac-populate-prefix/src/flac-populate-stamp/flac-populate-patch	fbef26821f15fa82
+166	214	7669528227551335	flac-populate-prefix/src/flac-populate-stamp/flac-populate-configure	f25afb1331e6a1af
+166	214	7669528227551335	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-configure	f25afb1331e6a1af
+215	259	7669528227996674	flac-populate-prefix/src/flac-populate-stamp/flac-populate-build	cceeef253aad695c
+215	259	7669528227996674	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-build	cceeef253aad695c
+259	304	7669528228449808	flac-populate-prefix/src/flac-populate-stamp/flac-populate-install	da382840e1963f84
+259	304	7669528228449808	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-install	da382840e1963f84
+304	348	7669528228885487	flac-populate-prefix/src/flac-populate-stamp/flac-populate-test	8383f51b4cbdc0c5
+304	348	7669528228885487	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-test	8383f51b4cbdc0c5
+348	410	7669528229509011	CMakeFiles/flac-populate-complete	31460738a626458f
+348	410	7669528229509011	flac-populate-prefix/src/flac-populate-stamp/flac-populate-done	31460738a626458f
+348	410	7669528229509011	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/flac-subbuild/CMakeFiles/flac-populate-complete	31460738a626458f
+348	410	7669528229509011	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-done	31460738a626458f
+1	118	7669528814279799	flac-populate-prefix/src/flac-populate-stamp/flac-populate-update	a5f20aa272456e6b
+1	118	7669528814279799	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-update	a5f20aa272456e6b
+118	168	7669528815875507	flac-populate-prefix/src/flac-populate-stamp/flac-populate-patch	fbef26821f15fa82
+118	168	7669528815875507	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-patch	fbef26821f15fa82
+168	213	7669528816346251	flac-populate-prefix/src/flac-populate-stamp/flac-populate-configure	f25afb1331e6a1af
+168	213	7669528816346251	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-configure	f25afb1331e6a1af
+213	260	7669528816807530	flac-populate-prefix/src/flac-populate-stamp/flac-populate-build	cceeef253aad695c
+213	260	7669528816807530	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-build	cceeef253aad695c
+260	306	7669528817264060	flac-populate-prefix/src/flac-populate-stamp/flac-populate-install	da382840e1963f84
+260	306	7669528817264060	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-install	da382840e1963f84
+306	351	7669528817723404	flac-populate-prefix/src/flac-populate-stamp/flac-populate-test	8383f51b4cbdc0c5
+306	351	7669528817723404	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-test	8383f51b4cbdc0c5
+351	419	7669528818384285	CMakeFiles/flac-populate-complete	31460738a626458f
+351	419	7669528818384285	flac-populate-prefix/src/flac-populate-stamp/flac-populate-done	31460738a626458f
+351	419	7669528818384285	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/flac-subbuild/CMakeFiles/flac-populate-complete	31460738a626458f
+351	419	7669528818384285	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/flac-subbuild/flac-populate-prefix/src/flac-populate-stamp/flac-populate-done	31460738a626458f

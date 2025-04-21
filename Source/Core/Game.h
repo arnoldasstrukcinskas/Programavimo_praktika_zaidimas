@@ -7,7 +7,7 @@
 #include <SFML/System.hpp>
 #include <SFML/Network.hpp>
 
-#include "../Systems/Enemy/Enemy.h"
+#include "../Misc/FontManager.h"
 #include "../Systems/MapSystem/Map.h"
 #include "../Systems/Player/Player.h"
 #include "../Systems/Actions/Actions.h"
@@ -32,7 +32,6 @@ private:
     Map map;
     Texture tileSet;
     Map gameMap;
-    Enemy enemies;
     Player player;
     Actions *actions;
 };
