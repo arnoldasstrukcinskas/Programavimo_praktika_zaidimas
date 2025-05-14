@@ -1,7 +1,0 @@
-C:\Users\arnol\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/arnol/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S "D:\C++\Programavimo praktika(zaidimas)" -B "D:\C++\Programavimo praktika(zaidimas)\cmake-build-debug"
--- Could NOT find PkgConfig (missing: PKG_CONFIG_EXECUTABLE) 
--- Configuring libogg 1.3.5
--- Configuring vorbis 1.3.7
--- Configuring done (8.6s)
--- Generating done (0.2s)
--- Build files have been written to: D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug
