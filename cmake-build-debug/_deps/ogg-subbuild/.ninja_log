@@ -3,35 +3,35 @@
 52	2135	7663630591385084	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-download	ce28a16ef3980f2c
 52	2135	7663630591385084	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-download	ce28a16ef3980f2c
 1	52	7663630570554795	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-mkdir	638a142a629d5d65
-343	407	7669528223889305	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-done	5ac75351a282d95a
-117	167	7669528221480306	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-patch	23ccbe70a378a8f6
-1	117	7669528219880636	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-update	b1e6bcf82c266407
-117	167	7669528221480306	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-patch	23ccbe70a378a8f6
-1	117	7669528219880636	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-update	b1e6bcf82c266407
-211	256	7669528222372855	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-build	4934caef0930f862
-167	211	7669528221925449	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-configure	f9f4c6b0a0a7046b
-211	256	7669528222372855	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-build	4934caef0930f862
-167	211	7669528221925449	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-configure	f9f4c6b0a0a7046b
-256	300	7669528222809458	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-install	b0686ddd87d6a4f3
-256	300	7669528222809458	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-install	b0686ddd87d6a4f3
-300	343	7669528223255565	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-test	d1261a7e9e45300a
-300	343	7669528223255565	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-test	d1261a7e9e45300a
-343	407	7669528223889305	CMakeFiles/ogg-populate-complete	5ac75351a282d95a
-343	407	7669528223889305	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-done	5ac75351a282d95a
-343	407	7669528223889305	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/ogg-subbuild/CMakeFiles/ogg-populate-complete	5ac75351a282d95a
-2	119	7669528808668727	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-update	b1e6bcf82c266407
-2	119	7669528808668727	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-update	b1e6bcf82c266407
-119	169	7669528810286859	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-patch	23ccbe70a378a8f6
-119	169	7669528810286859	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-patch	23ccbe70a378a8f6
-169	214	7669528810738083	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-configure	f9f4c6b0a0a7046b
-169	214	7669528810738083	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-configure	f9f4c6b0a0a7046b
-214	260	7669528811190419	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-build	4934caef0930f862
-214	260	7669528811190419	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-build	4934caef0930f862
-260	308	7669528811679676	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-install	b0686ddd87d6a4f3
-260	308	7669528811679676	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-install	b0686ddd87d6a4f3
-308	356	7669528812143148	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-test	d1261a7e9e45300a
-308	356	7669528812143148	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-test	d1261a7e9e45300a
-356	419	7669528812794019	CMakeFiles/ogg-populate-complete	5ac75351a282d95a
-356	419	7669528812794019	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-done	5ac75351a282d95a
-356	419	7669528812794019	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/ogg-subbuild/CMakeFiles/ogg-populate-complete	5ac75351a282d95a
-356	419	7669528812794019	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-done	5ac75351a282d95a
+1621	1685	7669599406669651	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-done	5ac75351a282d95a
+1391	1436	7669599404186956	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-patch	23ccbe70a378a8f6
+2	1391	7669599389894708	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-update	b1e6bcf82c266407
+1391	1436	7669599404186956	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-patch	23ccbe70a378a8f6
+2	1391	7669599389894708	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-update	b1e6bcf82c266407
+1486	1531	7669599405139200	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-build	4934caef0930f862
+1436	1485	7669599404672869	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-configure	f9f4c6b0a0a7046b
+1486	1531	7669599405139200	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-build	4934caef0930f862
+1436	1485	7669599404672869	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-configure	f9f4c6b0a0a7046b
+1531	1576	7669599405587146	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-install	b0686ddd87d6a4f3
+1531	1576	7669599405587146	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-install	b0686ddd87d6a4f3
+1576	1621	7669599406032113	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-test	d1261a7e9e45300a
+1576	1621	7669599406032113	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-test	d1261a7e9e45300a
+1621	1685	7669599406669651	CMakeFiles/ogg-populate-complete	5ac75351a282d95a
+1621	1685	7669599406669651	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-done	5ac75351a282d95a
+1621	1685	7669599406669651	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/ogg-subbuild/CMakeFiles/ogg-populate-complete	5ac75351a282d95a
+1	128	7669611014581470	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-update	b1e6bcf82c266407
+1	128	7669611014581470	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-update	b1e6bcf82c266407
+129	181	7669611016322441	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-patch	23ccbe70a378a8f6
+129	181	7669611016322441	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-patch	23ccbe70a378a8f6
+181	229	7669611016807219	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-configure	f9f4c6b0a0a7046b
+181	229	7669611016807219	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-configure	f9f4c6b0a0a7046b
+229	277	7669611017275052	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-build	4934caef0930f862
+229	277	7669611017275052	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-build	4934caef0930f862
+277	324	7669611017752633	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-install	b0686ddd87d6a4f3
+277	324	7669611017752633	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-install	b0686ddd87d6a4f3
+324	370	7669611018202162	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-test	d1261a7e9e45300a
+324	370	7669611018202162	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-test	d1261a7e9e45300a
+370	438	7669611018897204	CMakeFiles/ogg-populate-complete	5ac75351a282d95a
+370	438	7669611018897204	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-done	5ac75351a282d95a
+370	438	7669611018897204	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/ogg-subbuild/CMakeFiles/ogg-populate-complete	5ac75351a282d95a
+370	438	7669611018897204	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-done	5ac75351a282d95a

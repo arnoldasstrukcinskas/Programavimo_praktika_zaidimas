@@ -17,7 +17,9 @@ add_executable(Programavimo_praktika_zaidimas_ main.cpp
         Source/Misc/FontManager.cpp
         Source/Misc/FontManager.h
         Source/Core/GUI.cpp
-        Source/Core/GUI.h)
+        Source/Core/GUI.h
+        Source/Misc/Button.cpp
+        Source/Misc/Button.h)
 
 include(FetchContent)
 FetchContent_Declare(SFML

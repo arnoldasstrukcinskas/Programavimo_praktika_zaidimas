@@ -18,7 +18,6 @@ public:
         if (!font.openFromFile("../Assets/textFont.ttf")) {
             cout << "error" << endl;
         } else {
-            cout << "font loaded" << endl;
         }
     }
 

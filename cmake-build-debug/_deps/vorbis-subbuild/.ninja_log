@@ -1,37 +1,37 @@
 # ninja log v6
-255	299	7669528234820954	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-install	e4e4e985369441e7
+1771	1818	7669599445824203	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-install	e4e4e985369441e7
 1	50	7663630717379186	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-mkdir	e1442afd403bc8e3
 1	50	7663630717379186	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-mkdir	e1442afd403bc8e3
 50	5427	7663630771156082	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-download	b7ca01e02e94cff0
-2	116	7669528231906415	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-update	959de812adea0aab
+2	1631	7669599427712886	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-update	959de812adea0aab
 50	5427	7663630771156082	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-download	b7ca01e02e94cff0
-165	210	7669528233938418	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-configure	2a229c75e4a0fac7
-116	165	7669528233483552	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-patch	c23ba79b68352aaf
-116	165	7669528233483552	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-patch	c23ba79b68352aaf
-2	116	7669528231906415	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-update	959de812adea0aab
-165	210	7669528233938418	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-configure	2a229c75e4a0fac7
-210	255	7669528234393596	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-build	3de281bc52b39549
-210	255	7669528234393596	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-build	3de281bc52b39549
-255	299	7669528234820954	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-install	e4e4e985369441e7
-299	350	7669528235341114	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-test	813a249f4f78c76a
-299	350	7669528235341114	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-test	813a249f4f78c76a
-350	412	7669528235961479	CMakeFiles/vorbis-populate-complete	b26a5e3297647b9a
-350	412	7669528235961479	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-done	b26a5e3297647b9a
-350	412	7669528235961479	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/vorbis-subbuild/CMakeFiles/vorbis-populate-complete	b26a5e3297647b9a
-350	412	7669528235961479	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-done	b26a5e3297647b9a
-2	134	7669528820718344	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-update	959de812adea0aab
-2	134	7669528820718344	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-update	959de812adea0aab
-135	192	7669528822562821	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-patch	c23ba79b68352aaf
-135	192	7669528822562821	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-patch	c23ba79b68352aaf
-192	240	7669528823040933	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-configure	2a229c75e4a0fac7
-192	240	7669528823040933	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-configure	2a229c75e4a0fac7
-240	286	7669528823505816	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-build	3de281bc52b39549
-240	286	7669528823505816	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-build	3de281bc52b39549
-286	331	7669528823962949	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-install	e4e4e985369441e7
-286	331	7669528823962949	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-install	e4e4e985369441e7
-331	376	7669528824408278	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-test	813a249f4f78c76a
-331	376	7669528824408278	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-test	813a249f4f78c76a
-376	438	7669528825034998	CMakeFiles/vorbis-populate-complete	b26a5e3297647b9a
-376	438	7669528825034998	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-done	b26a5e3297647b9a
-376	438	7669528825034998	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/vorbis-subbuild/CMakeFiles/vorbis-populate-complete	b26a5e3297647b9a
-376	438	7669528825034998	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-done	b26a5e3297647b9a
+1679	1725	7669599444893555	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-configure	2a229c75e4a0fac7
+1632	1679	7669599444427086	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-patch	c23ba79b68352aaf
+1632	1679	7669599444427086	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-patch	c23ba79b68352aaf
+2	1631	7669599427712886	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-update	959de812adea0aab
+1679	1725	7669599444893555	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-configure	2a229c75e4a0fac7
+1725	1771	7669599445353213	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-build	3de281bc52b39549
+1725	1771	7669599445353213	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-build	3de281bc52b39549
+1771	1818	7669599445824203	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-install	e4e4e985369441e7
+1818	1863	7669599446275893	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-test	813a249f4f78c76a
+1818	1863	7669599446275893	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-test	813a249f4f78c76a
+1863	1928	7669599446927672	CMakeFiles/vorbis-populate-complete	b26a5e3297647b9a
+1863	1928	7669599446927672	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-done	b26a5e3297647b9a
+1863	1928	7669599446927672	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/vorbis-subbuild/CMakeFiles/vorbis-populate-complete	b26a5e3297647b9a
+1863	1928	7669599446927672	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-done	b26a5e3297647b9a
+1	114	7669611026936626	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-update	959de812adea0aab
+1	114	7669611026936626	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-update	959de812adea0aab
+115	163	7669611028494106	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-patch	c23ba79b68352aaf
+115	163	7669611028494106	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-patch	c23ba79b68352aaf
+163	210	7669611028966730	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-configure	2a229c75e4a0fac7
+163	210	7669611028966730	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-configure	2a229c75e4a0fac7
+210	257	7669611029437896	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-build	3de281bc52b39549
+210	257	7669611029437896	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-build	3de281bc52b39549
+258	302	7669611029898718	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-install	e4e4e985369441e7
+258	302	7669611029898718	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-install	e4e4e985369441e7
+303	347	7669611030342255	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-test	813a249f4f78c76a
+303	347	7669611030342255	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-test	813a249f4f78c76a
+347	410	7669611030968427	CMakeFiles/vorbis-populate-complete	b26a5e3297647b9a
+347	410	7669611030968427	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-done	b26a5e3297647b9a
+347	410	7669611030968427	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/vorbis-subbuild/CMakeFiles/vorbis-populate-complete	b26a5e3297647b9a
+347	410	7669611030968427	D:/C++/Programavimo praktika(zaidimas)/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-done	b26a5e3297647b9a

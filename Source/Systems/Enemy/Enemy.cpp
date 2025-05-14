@@ -8,6 +8,7 @@ Enemy::Enemy() {
 }
 
 Enemy::Enemy(int id, int positionX, int positionY) {
+    //sudeti i funkcija
     switch(id) {
         case 1:
             this->id = 1;

@@ -11,6 +11,7 @@
 #include "../Systems/MapSystem/Map.h"
 #include "../Systems/Player/Player.h"
 #include "../Systems/Actions/Actions.h"
+#include "../Core/GUI.h"
 
 
 using namespace std;
@@ -22,6 +23,7 @@ class Game {
 
 public:
     Game();
+    GUI gui;
     void run();
     void processEvents();
     void update();

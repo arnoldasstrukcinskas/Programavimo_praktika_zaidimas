@@ -132,7 +132,7 @@ void Map::generateLevel() {
                 sprite.setPosition(sf::Vector2f(column * 16 * 4, row * 16 * 4)); // Adjusted for scaling
                 spritesVector.push_back(sprite);
             } else {
-                std::cout << "No such tile ID: " << tileId << std::endl;
+                cout << "No such tile ID: " << tileId << endl;
             }
         }
     }

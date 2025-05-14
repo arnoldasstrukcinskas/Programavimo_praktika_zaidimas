@@ -9,6 +9,7 @@ Game::Game()
 
 
 void Game::run() {
+    gui.generateMenu();
 
     if (!gameMap.loadMapFromXML("../Data/Maps/Level1.xml")) {
         cerr << "Error loading the map!" << endl;
@@ -66,28 +67,41 @@ void Game::processEvents() {
                     player.set_is_attacking(false);
                     player.set_is_actions(false);
             }
+        } else if (const auto* mouseMoved = event->getIf<Event::MouseMoved>()) {
+            gui.update(mouseMoved->position, false);
+        } else if (const auto* mousePressed = event->getIf<Event::MouseButtonPressed>()) {
+            if (mousePressed->button == Mouse::Button::Left) {
+                gui.update(mousePressed->position, true);
+            }
         }
     }
 }
 
 void Game::update() {
-    actions->playerJump(player, gameMap);
-    actions->playerMoveForward(player, gameMap);
-    actions-> playerMoveBackward(player, gameMap);
-    actions->monsterAttack(player, gameMap);
-    player.generatePlayer(map);
-    player.checkLevel(player);
-    actions->applyGravity(player, gameMap);
-    actions->damageText.clearTexts();
+    if (gui.startGame) {
+        actions->playerJump(player, gameMap);
+        actions->playerMoveForward(player, gameMap);
+        actions-> playerMoveBackward(player, gameMap);
+        actions->monsterAttack(player, gameMap);
+        player.generatePlayer(map);
+        player.checkLevel(player);
+        actions->applyGravity(player, gameMap);
+        actions->damageText.clearTexts();
+    }
 }
 
 void Game::render() {
     desktopWindow.clear(Color::White);
-    gameMap.drawMap(desktopWindow);
-    player.drawPlayer(desktopWindow);
-    gameMap.updateEnemies(desktopWindow);
-    actions->damageText.drawTexts(desktopWindow);
-    player.drawHealthBar(desktopWindow);
-    player.drawExpBar(desktopWindow);
+    if (!gui.startGame) {
+        gui.drawMenu(desktopWindow);
+    }
+    if (gui.startGame) {
+        gameMap.drawMap(desktopWindow);
+        player.drawPlayer(desktopWindow);
+        gameMap.updateEnemies(desktopWindow);
+        actions->damageText.drawTexts(desktopWindow);
+        player.drawHealthBar(desktopWindow);
+        player.drawExpBar(desktopWindow);
+    }
     desktopWindow.display();
 }
